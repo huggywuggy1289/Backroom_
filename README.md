@@ -2,7 +2,6 @@
 
 ### 🧩 Backrooms 공간 배치 & 1인칭 플레이어 구현
 
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/a6f0a4bf-4c02-4d63-8bc5-c3d/…">
 
 Unity를 이용해 Backrooms 컨셉의 공간을 구현 및 플레이어의 1인칭 시점으로 자유롭게 탐험하는 무규칙 공간탐색 게임
 
