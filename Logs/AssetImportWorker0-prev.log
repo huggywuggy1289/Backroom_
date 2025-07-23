@@ -1,0 +1,1262 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.48f1 (170d2541580d) revision 1510693'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 16057 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.48f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/손재윤/Backroom
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52439
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/손재윤/Backroom
+C:/Users/손재윤/Backroom
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22996]  Target information:
+
+Player connection [22996] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22996] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 18.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.48f1 (170d2541580d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.48f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/손재윤/Backroom/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8028 MB
+    Driver:   32.0.101.6874
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.48f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.48f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.48f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.036420 seconds.
+- Loaded All Assemblies, in  4.537 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.372 seconds
+Domain Reload Profiling: 7876ms
+	BeginReloadAssembly (1891ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (566ms)
+	RebuildNativeTypeToScriptingClass (81ms)
+	initialDomainReloadingComplete (367ms)
+	LoadAllAssembliesAndSetupDomain (1597ms)
+		LoadAssemblies (1800ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1581ms)
+			TypeCache.Refresh (1573ms)
+				TypeCache.ScanAssembly (1483ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (3374ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2964ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (193ms)
+			SetLoadedEditorAssemblies (43ms)
+			BeforeProcessingInitializeOnLoad (974ms)
+			ProcessInitializeOnLoadAttributes (966ms)
+			ProcessInitializeOnLoadMethodAttributes (787ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.184 seconds
+Refreshing native plugins compatible for Editor in 4.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.005 seconds
+Domain Reload Profiling: 11086ms
+	BeginReloadAssembly (1792ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (71ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (167ms)
+	RebuildCommonClasses (310ms)
+	RebuildNativeTypeToScriptingClass (96ms)
+	initialDomainReloadingComplete (387ms)
+	LoadAllAssembliesAndSetupDomain (4495ms)
+		LoadAssemblies (4283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1516ms)
+			TypeCache.Refresh (1248ms)
+				TypeCache.ScanAssembly (1166ms)
+			BuildScriptInfoCaches (220ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (4006ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3061ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (756ms)
+			ProcessInitializeOnLoadAttributes (1913ms)
+			ProcessInitializeOnLoadMethodAttributes (269ms)
+			AfterProcessingInitializeOnLoad (94ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (104ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 199 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5976 unused Assets / (5.9 MB). Loaded Objects now: 6627.
+Memory consumption went from 153.2 MB to 147.3 MB.
+Total: 30.167000 ms (FindLiveObjects: 1.013300 ms CreateObjectMapping: 1.046400 ms MarkObjects: 17.850500 ms  DeleteObjects: 10.253900 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.472 seconds
+Refreshing native plugins compatible for Editor in 18.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.373 seconds
+Domain Reload Profiling: 15798ms
+	BeginReloadAssembly (1516ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (141ms)
+	RebuildCommonClasses (262ms)
+	RebuildNativeTypeToScriptingClass (77ms)
+	initialDomainReloadingComplete (228ms)
+	LoadAllAssembliesAndSetupDomain (3341ms)
+		LoadAssemblies (3154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1358ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1229ms)
+			ResolveRequiredComponents (80ms)
+	FinalizeReload (10375ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (8229ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (117ms)
+			SetLoadedEditorAssemblies (73ms)
+			BeforeProcessingInitializeOnLoad (1953ms)
+			ProcessInitializeOnLoadAttributes (4642ms)
+			ProcessInitializeOnLoadMethodAttributes (1352ms)
+			AfterProcessingInitializeOnLoad (91ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (191ms)
+Refreshing native plugins compatible for Editor in 35.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5972 unused Assets / (5.8 MB). Loaded Objects now: 6642.
+Memory consumption went from 140.8 MB to 134.9 MB.
+Total: 415.590900 ms (FindLiveObjects: 14.436000 ms CreateObjectMapping: 30.921400 ms MarkObjects: 337.218100 ms  DeleteObjects: 33.010700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6876.086728 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e43a5b664b28a3669337bf7554f9cd3a') in 0.6813662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/PlayerAnimator.controller
+  artifactKey: Guid(3112206309aea5349b08622069c2d72c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/PlayerAnimator.controller using Guid(3112206309aea5349b08622069c2d72c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92f9ee20aef79e152003dc99ddba49c0') in 0.0190951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleCeiling_01_D.prefab
+  artifactKey: Guid(805ca5cc931ab344b99889642cf7e4ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleCeiling_01_D.prefab using Guid(805ca5cc931ab344b99889642cf7e4ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d473117f1917a2d50dc2c8cf2214e7a') in 0.0775334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Corner_02_A.prefab
+  artifactKey: Guid(a05bff2b52dba4f419cf0c69b4cab89c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Corner_02_A.prefab using Guid(a05bff2b52dba4f419cf0c69b4cab89c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31dd734643ea5d6a5a5035c6251b45da') in 0.0233745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleCeiling_01_C.prefab
+  artifactKey: Guid(12046498d3f852e4cae48a6bd4dc6e9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleCeiling_01_C.prefab using Guid(12046498d3f852e4cae48a6bd4dc6e9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9448c4b03f4e48c5cae5a6c323ea665f') in 0.0629149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_Hole_01_B.prefab
+  artifactKey: Guid(73e327b3e7dd60542a0ec8b31bf7d1be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_Hole_01_B.prefab using Guid(73e327b3e7dd60542a0ec8b31bf7d1be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bcaaafb52377d5b858f27dd71956c93') in 0.0325168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_03_B.prefab
+  artifactKey: Guid(08c2ff31d1e64d049b4ca297897283c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_03_B.prefab using Guid(08c2ff31d1e64d049b4ca297897283c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc75f8cb20a2f823232ae485e89a1b37') in 0.0368956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Corner_01_C.prefab
+  artifactKey: Guid(763497c78e4320841a962b213d133e7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Corner_01_C.prefab using Guid(763497c78e4320841a962b213d133e7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3192a379106b3788591b1d3b9097e940') in 0.0720209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000790 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '973a1cd92832241448bd6f38a7ac16af') in 0.3924779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_Debris_Stack_3.prefab
+  artifactKey: Guid(40c2e3fae13fb7c4a95134f9b198b91f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_Debris_Stack_3.prefab using Guid(40c2e3fae13fb7c4a95134f9b198b91f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5f62fa80b5d3842565b2e682bd077e7') in 0.1507983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_06_A.prefab
+  artifactKey: Guid(24f9e81dca200d14d9f12cc1fe31648e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_06_A.prefab using Guid(24f9e81dca200d14d9f12cc1fe31648e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b11f98778f373e9afbf92c30e607d06') in 0.1117713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_02_A.prefab
+  artifactKey: Guid(c9cce6dbcf9788345b1ae4a8bcb3c417) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_02_A.prefab using Guid(c9cce6dbcf9788345b1ae4a8bcb3c417) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15ab541275fde20a64c8da5dd611f6ee') in 0.0907277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000805 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicSide_01_A.prefab
+  artifactKey: Guid(bbe2bb717665bb44c9b2e69de520c6c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicSide_01_A.prefab using Guid(bbe2bb717665bb44c9b2e69de520c6c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '344f37360ce6224b5feb95b4e15d796b') in 0.0746079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicSide_01_C.prefab
+  artifactKey: Guid(25c12ab16ba5d404192d32c7ff026a1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicSide_01_C.prefab using Guid(25c12ab16ba5d404192d32c7ff026a1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59c2f154deb5677ed1e26f7d0566234f') in 0.1592764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/BlendFile/Props_only.zip
+  artifactKey: Guid(6bb510b167df6c64babefc3ab9e15cf9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/BlendFile/Props_only.zip using Guid(6bb510b167df6c64babefc3ab9e15cf9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7c9f28dec41240a76458d1171b2a481') in 0.0396534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23c5fc537ade70f333602782cc77d8c0') in 0.0299967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleFloor_01_D.prefab
+  artifactKey: Guid(33005c8ebd3d7f64f956ced36698037e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleFloor_01_D.prefab using Guid(33005c8ebd3d7f64f956ced36698037e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f9528a2b541e79bc1b87ea48780a3c0') in 0.1511029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/fbx/RoomTiles.fbx
+  artifactKey: Guid(05323b62e9a5c4f43bf94c451c70c99f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/fbx/RoomTiles.fbx using Guid(05323b62e9a5c4f43bf94c451c70c99f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd651d783fe6413032dff9a7533e3efbd') in 2.279167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 844
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_01_Fill.prefab
+  artifactKey: Guid(af6f0dd985c4f694eb989eb58bb1bc93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_01_Fill.prefab using Guid(af6f0dd985c4f694eb989eb58bb1bc93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c24f4a42eb777b308134b154c92606e1') in 0.0577843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_02_D.prefab
+  artifactKey: Guid(eb8eb5d9cc8e61e43b7d0c733a346758) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_02_D.prefab using Guid(eb8eb5d9cc8e61e43b7d0c733a346758) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6356b38b1d08d039d76ae0a9239eb431') in 0.067719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_TrashCan.prefab
+  artifactKey: Guid(9c7ddbd4e1e420e499a374e4556b2c71) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_TrashCan.prefab using Guid(9c7ddbd4e1e420e499a374e4556b2c71) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb28e7c36657801fa3ff23996b038c15') in 0.0598943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/Rooms.unity
+  artifactKey: Guid(ebafbff35efad2a459b4690c96377e21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/Rooms.unity using Guid(ebafbff35efad2a459b4690c96377e21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b71befaf20d327ab78efa712bd3952dd') in 0.2361668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_02_C.prefab
+  artifactKey: Guid(cc02b4287b53ce447a48c7f1cac3ed1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_02_C.prefab using Guid(cc02b4287b53ce447a48c7f1cac3ed1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce1780056cb2c2ec08d7ec9cd7b4d1f0') in 0.0788737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(7507f652fa982c7449e35dd3f1b97f13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/PlayerController.cs using Guid(7507f652fa982c7449e35dd3f1b97f13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '044240e1027525ec1bfa89053a1841ff') in 0.0422804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Halls_01_A.prefab
+  artifactKey: Guid(b47ad29467ca091478d6e3d903e9a1d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Halls_01_A.prefab using Guid(b47ad29467ca091478d6e3d903e9a1d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01a3dc410238866ffe9ff81ea4a8d208') in 0.0516803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+_02_B.prefab
+  artifactKey: Guid(8878c0e314a07c74fa49309a73f32ff7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+_02_B.prefab using Guid(8878c0e314a07c74fa49309a73f32ff7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f828e24fea206e38b81278763767991') in 0.052375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+_04_A.prefab
+  artifactKey: Guid(143deb2f7577b5148944e1e701e6fe9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+_04_A.prefab using Guid(143deb2f7577b5148944e1e701e6fe9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91abebafcde14ef05beef49532b9a041') in 0.071743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_03_A.prefab
+  artifactKey: Guid(50172712486970e4c8268a7be84182b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_03_A.prefab using Guid(50172712486970e4c8268a7be84182b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be174d150d451f37d6cac78e8f33ffe1') in 0.2400073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_01_A.prefab
+  artifactKey: Guid(fd4ab0bde46686149a8239c5469fbc69) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_01_A.prefab using Guid(fd4ab0bde46686149a8239c5469fbc69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b829985c351e27851e2d63aff4865f58') in 0.0530052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCornerSide_03_A.prefab
+  artifactKey: Guid(6eac5e499885d2d44b119cffc6045d8a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCornerSide_03_A.prefab using Guid(6eac5e499885d2d44b119cffc6045d8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00746bb0a96aa0815d8317b9a206db24') in 0.0510324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Asset/Shaders/LitShader_MRAOv1.shadergraph
+  artifactKey: Guid(bbedfa6c7ca379747862390237251092) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/Shaders/LitShader_MRAOv1.shadergraph using Guid(bbedfa6c7ca379747862390237251092) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f1d130a1c84240f948318cbc383fb8b') in 0.1148409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_03_D.prefab
+  artifactKey: Guid(ad8cf7da37f06024e905886f7ea0176d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_03_D.prefab using Guid(ad8cf7da37f06024e905886f7ea0176d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4652a592fe8b28a150c803afe23ea60') in 0.0789317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e10a41f8be126192edf865f5acd4e4e0') in 0.0384692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+_04_B.prefab
+  artifactKey: Guid(2549e4addb02ae444b50eb536e89c6d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+_04_B.prefab using Guid(2549e4addb02ae444b50eb536e89c6d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c750eaad1c971e1ccc1d1680f847d683') in 0.0585007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/material/Prop_Set_Mat.mat
+  artifactKey: Guid(9b2dd8d62a670144db1a351df8882ac0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/material/Prop_Set_Mat.mat using Guid(9b2dd8d62a670144db1a351df8882ac0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2237cc99a7db4314af7ce081cb3d8c10') in 0.0722316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCornerSide_04_A.prefab
+  artifactKey: Guid(5cb6b35cb0f6da748ba9dba109887d40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCornerSide_04_A.prefab using Guid(5cb6b35cb0f6da748ba9dba109887d40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f62e987d519c1d19a850866a61ab133b') in 0.1625821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_03_A.prefab
+  artifactKey: Guid(a468506b03db2a1448898e65346602d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_03_A.prefab using Guid(a468506b03db2a1448898e65346602d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52606758e095004960888f3a3a1d28fa') in 0.0613702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_03_C.prefab
+  artifactKey: Guid(1bbec5739b322ca49be0f74f3a8d8ffb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_03_C.prefab using Guid(1bbec5739b322ca49be0f74f3a8d8ffb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a5ddc6fb2b4bae9ea287bd183348fc2') in 0.0838229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_04_C.prefab
+  artifactKey: Guid(323dc1b99292a4d4c8fa1d97493f15be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_04_C.prefab using Guid(323dc1b99292a4d4c8fa1d97493f15be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb72cd203a9ad3ca3c4d770f11abb3e7') in 0.0982234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f87f878ddba722ebf787fa469cc152c') in 0.1224662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+_01_A.prefab
+  artifactKey: Guid(18ed505596ec59b4ea1dcfffad6a4aa4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+_01_A.prefab using Guid(18ed505596ec59b4ea1dcfffad6a4aa4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc5c348bc0364c6e3a70108214d839ff') in 0.0563009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCornerSide_02_A.prefab
+  artifactKey: Guid(09ecbec9f82a3d84c8d39b90a89ed8e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCornerSide_02_A.prefab using Guid(09ecbec9f82a3d84c8d39b90a89ed8e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc876ecece3e4450a0d379b22ac5e644') in 0.0908705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TStairs_01_B.prefab
+  artifactKey: Guid(1ea24d0b9f205b04781fdc09d3f34c91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TStairs_01_B.prefab using Guid(1ea24d0b9f205b04781fdc09d3f34c91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e96f21b9ca5a27ee7ad9436edeb5ec00') in 0.0650825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+RoomEnd_01_C.prefab
+  artifactKey: Guid(1228a40030a80924ab62008a3ce79ebd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+RoomEnd_01_C.prefab using Guid(1228a40030a80924ab62008a3ce79ebd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '035a1609105d8b0271f45a7f9ce917ab') in 0.1097858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_04_B.prefab
+  artifactKey: Guid(352dfc7a8ee176f41af5340bff5c91aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_04_B.prefab using Guid(352dfc7a8ee176f41af5340bff5c91aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78f39d93ef7c0c6a8325cee2c244ec18') in 0.1142388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_02_D.prefab
+  artifactKey: Guid(86583ca1336d8944590bbeb33645f7b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_02_D.prefab using Guid(86583ca1336d8944590bbeb33645f7b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5c66c10c1847239d8ecd95f66d56736') in 0.0864816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_05_A.prefab
+  artifactKey: Guid(517dca1449c07544e9abf9221f910ccf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_05_A.prefab using Guid(517dca1449c07544e9abf9221f910ccf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '197b29a46e9cf0143c37d6cf8aecee35') in 0.0507621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/TestLeve.unity
+  artifactKey: Guid(563b3256fcaae0445bc64875a23ce326) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/TestLeve.unity using Guid(563b3256fcaae0445bc64875a23ce326) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f4f47a4a3f5559d48815a276718495b') in 0.0418538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_01_B.prefab
+  artifactKey: Guid(b5a0d950116aff049bdc14ef21ca4334) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_01_B.prefab using Guid(b5a0d950116aff049bdc14ef21ca4334) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '147ea1397dc35f41c93d74c176f6e72e') in 0.0611473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Walls/WallHole_A.prefab
+  artifactKey: Guid(d143303e072de694587bf95349915029) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Walls/WallHole_A.prefab using Guid(d143303e072de694587bf95349915029) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87b1fea255963eca929a29853ace475d') in 0.0846403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Walls/Wall_2m_Door_B.prefab
+  artifactKey: Guid(ca5df1f94b0ea9c4f9e2f72ddfcf6473) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Walls/Wall_2m_Door_B.prefab using Guid(ca5df1f94b0ea9c4f9e2f72ddfcf6473) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b501c75b307b675eda5236702ba8b1ca') in 0.0521824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_Debris_Stack_2.prefab
+  artifactKey: Guid(6b90958a986bf934f9b62f33bfe2a358) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_Debris_Stack_2.prefab using Guid(6b90958a986bf934f9b62f33bfe2a358) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7be54d44879bacf79bb587d58e8adcd5') in 0.0505118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_01_B.prefab
+  artifactKey: Guid(847ff4a30a8f09343ba3d34b57ca3b3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_01_B.prefab using Guid(847ff4a30a8f09343ba3d34b57ca3b3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e10b7a97582fc80c5decf7b8053607a8') in 0.0705481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/textures/CarpetFloor/MRAO_CarpetFloor.exr
+  artifactKey: Guid(835246ad4fe4050419a5f302832f3b14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/textures/CarpetFloor/MRAO_CarpetFloor.exr using Guid(835246ad4fe4050419a5f302832f3b14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '650aa0e828120c3cadacd90b7d38ae85') in 0.0706278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_04_A.prefab
+  artifactKey: Guid(ca5a7e738a07d924baa911fdbf7ff63a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_04_A.prefab using Guid(ca5a7e738a07d924baa911fdbf7ff63a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '233513b51272c6f6b2d119dc298a50fe') in 0.0539228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/textures/Concrete_4/MRAO_Concrete_4.exr
+  artifactKey: Guid(6b7b4bbc003166d4193e59a960d68a1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/textures/Concrete_4/MRAO_Concrete_4.exr using Guid(6b7b4bbc003166d4193e59a960d68a1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e437524d35513b4be394870944c02651') in 0.0389125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_02_C.prefab
+  artifactKey: Guid(9451be54eee2a2947991859aacb9afaf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_02_C.prefab using Guid(9451be54eee2a2947991859aacb9afaf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a34ffa22ee893813bb5c85df1a89cd28') in 0.071432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/textures/OfficeCeiling/EMIT_OfficeCeiling.png
+  artifactKey: Guid(3ffb5ed3b0a3c104f95f07b60f16f131) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/textures/OfficeCeiling/EMIT_OfficeCeiling.png using Guid(3ffb5ed3b0a3c104f95f07b60f16f131) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fe1417cdbb37dd6a5c07c33eaa7d9f5') in 0.0673402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/material/Concrete_Mat.mat
+  artifactKey: Guid(be6b289c9424bfc46b4587e487d65337) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/material/Concrete_Mat.mat using Guid(be6b289c9424bfc46b4587e487d65337) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6147ea1a612d9cda8682aece8a2256a4') in 0.0618663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleCeiling_01_A.prefab
+  artifactKey: Guid(d747ed6ba5f70954bbdb7dfb4d21758a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleCeiling_01_A.prefab using Guid(d747ed6ba5f70954bbdb7dfb4d21758a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57440c2247688a343b9091fa5b13e300') in 0.0607004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/textures/PropSet/Emit_PropSet.png
+  artifactKey: Guid(064fcd41b67e24947ac5f960cc6ee44c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/textures/PropSet/Emit_PropSet.png using Guid(064fcd41b67e24947ac5f960cc6ee44c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f4bf370084902102a3274201feaad24') in 0.107618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/textures/WallTrims/WallTrim_albedo.png
+  artifactKey: Guid(cc82f76de545a924ba11bb24c27c9be5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/textures/WallTrims/WallTrim_albedo.png using Guid(cc82f76de545a924ba11bb24c27c9be5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '772d2a30ee798dede78da488e3b4e616') in 0.0452994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_FloorDebris_4.prefab
+  artifactKey: Guid(3fa56f64d0a30ea4bbb6785090b2e2fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_FloorDebris_4.prefab using Guid(3fa56f64d0a30ea4bbb6785090b2e2fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '324b76f88ab9669f10494b9c6437e119') in 0.2132504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Walls/Wall_Pillar_B.prefab
+  artifactKey: Guid(75fd6002eb5ec2d41b9b4432062c6c26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Walls/Wall_Pillar_B.prefab using Guid(75fd6002eb5ec2d41b9b4432062c6c26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '489721a003baf184383dfd12bf9cad35') in 0.0459858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_01_D.prefab
+  artifactKey: Guid(8115b72153b9bd545a1deeb93c8b3afb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_01_D.prefab using Guid(8115b72153b9bd545a1deeb93c8b3afb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2cbd9363b6bed3895decefa7b20444a8') in 0.071311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Corner_02_D.prefab
+  artifactKey: Guid(a3f97c84b9c482241a557d3615491865) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Corner_02_D.prefab using Guid(a3f97c84b9c482241a557d3615491865) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b896f391b9f80a79a8fe8bb8287eceb') in 0.0553905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+_03_B.prefab
+  artifactKey: Guid(8e736f2405c1ea04e84ffe9e7f6acaaa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+_03_B.prefab using Guid(8e736f2405c1ea04e84ffe9e7f6acaaa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bea85a7498d8a6cdc9c414266a670f11') in 0.0540466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Walls/Wall.prefab
+  artifactKey: Guid(75d2407752895f4418864182ff7eb836) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Walls/Wall.prefab using Guid(75d2407752895f4418864182ff7eb836) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7571858ab869afc14893625fd2c68cdc') in 0.0482662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_04_D.prefab
+  artifactKey: Guid(c00c97e102a64d64d9f8789fc5ea04f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_04_D.prefab using Guid(c00c97e102a64d64d9f8789fc5ea04f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9573cc76c6f90fbe740f4e9e655773d1') in 0.1115641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_02_B.prefab
+  artifactKey: Guid(87abc30a0c5edd44ea7212f6ddd2f6f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_02_B.prefab using Guid(87abc30a0c5edd44ea7212f6ddd2f6f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0075c9777ebebed5c6c33d60ce6e737') in 0.0602098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_Debris_Stack_1.prefab
+  artifactKey: Guid(abfe3acd0ab10dc44be436bc2b13d8d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_Debris_Stack_1.prefab using Guid(abfe3acd0ab10dc44be436bc2b13d8d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4a05a53823a1e05267180ffa37adf3a') in 0.0705604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_Stool.prefab
+  artifactKey: Guid(84dc23b1ec6d592428d92f51589b3434) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_Stool.prefab using Guid(84dc23b1ec6d592428d92f51589b3434) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fccdc5d9d124d0d08170f2b252d13839') in 0.058844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_Padlock.prefab
+  artifactKey: Guid(0ca22b9e5bd554a4085e4f0401be5bd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Props/Props_Padlock.prefab using Guid(0ca22b9e5bd554a4085e4f0401be5bd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d95750bc18d2c59d5cc14c8ba0e1b39') in 0.0472658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_WallDebris_2.prefab
+  artifactKey: Guid(b68b6982d1e1a3d46a400c0b1d48b994) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_WallDebris_2.prefab using Guid(b68b6982d1e1a3d46a400c0b1d48b994) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26aa9006d5dc937bad189d1724553563') in 0.0678464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_02_D.prefab
+  artifactKey: Guid(dca34f98bfb644241a8fe233ad83cdfe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_02_D.prefab using Guid(dca34f98bfb644241a8fe233ad83cdfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8abd60556834e3cbfb25f24f317206ff') in 0.0651339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Walls/WallDoor_A.prefab
+  artifactKey: Guid(61d75f8b26f9485459f5a25bdfd62e8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Walls/WallDoor_A.prefab using Guid(61d75f8b26f9485459f5a25bdfd62e8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c791e676e93bb02fc7529301660c2b76') in 0.2669867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_01_A.prefab
+  artifactKey: Guid(8987c7922ad446a4eb756a2dd778614a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_01_A.prefab using Guid(8987c7922ad446a4eb756a2dd778614a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c878bbbff0822592d16585ba381df7c7') in 0.0795242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_04_A.prefab
+  artifactKey: Guid(6ee634e2590933e47bcc961877b7427b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_04_A.prefab using Guid(6ee634e2590933e47bcc961877b7427b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '281e36c52f8db4a35420f6138f676bfc') in 0.0780827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TStairs_01_D.prefab
+  artifactKey: Guid(9b26bf72f55a97a45a98c3ac35fcda7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TStairs_01_D.prefab using Guid(9b26bf72f55a97a45a98c3ac35fcda7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33642d9ef5dd032d3d9630126c02cb1f') in 0.0709809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/textures/PropSet/MRAo_PropSet.exr
+  artifactKey: Guid(818866629355c7d4f86be933b40ec2a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/textures/PropSet/MRAo_PropSet.exr using Guid(818866629355c7d4f86be933b40ec2a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd95a89c81b709768633848b0a8b5ecae') in 0.0717634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Walls/WallHole_2m_B.prefab
+  artifactKey: Guid(214656fd64109c2498cd8557d183e47a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Walls/WallHole_2m_B.prefab using Guid(214656fd64109c2498cd8557d183e47a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e36cb2186ead54b291869e1661fff79') in 0.0610949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TStairs_02_A.prefab
+  artifactKey: Guid(96de781a42b5799439076047069d98ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TStairs_02_A.prefab using Guid(96de781a42b5799439076047069d98ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8c50124ddf3013a24eebd3dcbf9c67f') in 0.0863175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/textures/Concrete_4/NORMAL_Concrete_4.png
+  artifactKey: Guid(f6ff3cf93140eb34a8c85befef8df512) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/textures/Concrete_4/NORMAL_Concrete_4.png using Guid(f6ff3cf93140eb34a8c85befef8df512) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fbe1d8eda13cce0b371c5dff3ac9bb6') in 0.0473646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/textures/PaintedWall/NORMAL_PaintedWall.png
+  artifactKey: Guid(9beac28db2ce64642823f1e6981a73bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/textures/PaintedWall/NORMAL_PaintedWall.png using Guid(9beac28db2ce64642823f1e6981a73bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fde0fefaaf278c98dd10f735700951b') in 0.0444737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/textures/OfficeCeiling/BASE COLOR_OfficeCeiling.png
+  artifactKey: Guid(b2f453d853983f94db8a16f538178c45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/textures/OfficeCeiling/BASE COLOR_OfficeCeiling.png using Guid(b2f453d853983f94db8a16f538178c45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cb02122ca58ca17793f73f544e116fc') in 0.0421772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_THalls_01_C.prefab
+  artifactKey: Guid(588ab5954570c19409d7816612d0569d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_THalls_01_C.prefab using Guid(588ab5954570c19409d7816612d0569d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '677766b0bebc77e65de3daf80e768426') in 0.0406726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleFloor_01_B.prefab
+  artifactKey: Guid(fea76dd923c4c2f48860e0087cadf980) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleFloor_01_B.prefab using Guid(fea76dd923c4c2f48860e0087cadf980) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5436e945530587274e4870e3fdba4d1f') in 0.0548255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_01_A.prefab
+  artifactKey: Guid(26b9061cfeca8ba48aaf4663af18fe38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_01_A.prefab using Guid(26b9061cfeca8ba48aaf4663af18fe38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61a2d7f3fda9bef30d21bb9c71644fbe') in 0.0466743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_01_C.prefab
+  artifactKey: Guid(ad3b541cf79f215488f0c8c1ba4db49a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_01_C.prefab using Guid(ad3b541cf79f215488f0c8c1ba4db49a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d73869a23e2f81c9e45eb9427b19a86') in 0.0453514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0781668ebb9b8cf79c5f1bb0a498f9b') in 0.0256222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Walls/WallHole_2m_A.prefab
+  artifactKey: Guid(bc69031c96015dc45ba17a355187937c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Walls/WallHole_2m_A.prefab using Guid(bc69031c96015dc45ba17a355187937c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a76ed011bf0d6fc023bb4e7bd9d2c31') in 0.0501328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/fbx/Props.fbx
+  artifactKey: Guid(1b52a805e5e0c9e4992e1cd5a7ef5d45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/fbx/Props.fbx using Guid(1b52a805e5e0c9e4992e1cd5a7ef5d45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0463c0178c2218988f42303e9da31eb7') in 0.0661722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 104
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_02_A.prefab
+  artifactKey: Guid(eff7c5c799b12eb4a83f9248590b9a46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_02_A.prefab using Guid(eff7c5c799b12eb4a83f9248590b9a46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c12414abf7626f5ad915e0dede7c9557') in 0.0638461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_02_A.prefab
+  artifactKey: Guid(eabfbfb81d90cf44cb1e81637fcb8c49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_02_A.prefab using Guid(eabfbfb81d90cf44cb1e81637fcb8c49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cee8fb7816fda8fd5dc30b27cdd8702') in 0.0400749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_03_C.prefab
+  artifactKey: Guid(17d90bef568ec104ab806d9d95d1b8a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_03_C.prefab using Guid(17d90bef568ec104ab806d9d95d1b8a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29b80663b033d4713fa55a89a522271e') in 0.0312734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+RoomStairs_01_B.prefab
+  artifactKey: Guid(31c1f907f1c1fba4bacd2044d8f9db64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+RoomStairs_01_B.prefab using Guid(31c1f907f1c1fba4bacd2044d8f9db64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7906f0e66436adee04a57ac0016aef6') in 0.0372294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCornerSide_01_B.prefab
+  artifactKey: Guid(01397bc78ecdcd14ebd2d7e0250adfc0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCornerSide_01_B.prefab using Guid(01397bc78ecdcd14ebd2d7e0250adfc0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06775cc2fc0f461c63bdb31bd2ab6b6c') in 0.0603789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/textures/OfficeCeiling/MRAO_OfficeCeiling.exr
+  artifactKey: Guid(84bccc7e3a1dd6745a293b777aa078b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/textures/OfficeCeiling/MRAO_OfficeCeiling.exr using Guid(84bccc7e3a1dd6745a293b777aa078b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46a0fd6ab32489b3b782f50360ae2302') in 0.0349736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/textures/OfficeCeiling/NORMAL_OfficeCeiling.png
+  artifactKey: Guid(68cde02a2520bfa4e8778dc9f93077fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/textures/OfficeCeiling/NORMAL_OfficeCeiling.png using Guid(68cde02a2520bfa4e8778dc9f93077fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53cea6555162ebeb97fd59c74dcd6c20') in 0.0271205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_04_A.prefab
+  artifactKey: Guid(4d7116bfed9d4b9478906f79383ab10b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_04_A.prefab using Guid(4d7116bfed9d4b9478906f79383ab10b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8dc3a593b6e08b68346cb6741e54bf96') in 0.0326874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleFloor_01_A.prefab
+  artifactKey: Guid(3ce53481ae847db4c94af42188d1a433) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleFloor_01_A.prefab using Guid(3ce53481ae847db4c94af42188d1a433) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf5e998aa24de0f4e2ead797574544b0') in 0.05342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicSide_02_B.prefab
+  artifactKey: Guid(fc9e5b7ffaa34834ba6b58da671788ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicSide_02_B.prefab using Guid(fc9e5b7ffaa34834ba6b58da671788ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48d25f46b5f48ecc65399c30893a832b') in 0.0431264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '111f4e1cdfc680aadb2cb85f0e9a66a8') in 0.0152874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicSide_01_D.prefab
+  artifactKey: Guid(47ed96f758df88b40a1e44a8b4b5809d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicSide_01_D.prefab using Guid(47ed96f758df88b40a1e44a8b4b5809d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53276bf4e6ba3fe6fd5d8f6d429c9afb') in 0.0423181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_03_D.prefab
+  artifactKey: Guid(6a0650220554f0640bd88b0954081fe7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_03_D.prefab using Guid(6a0650220554f0640bd88b0954081fe7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9eb1854bdf229d3056f2d06410eaa312') in 0.0969178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TStairs_02_C.prefab
+  artifactKey: Guid(1c8e7604877e1a74686d855582114044) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TStairs_02_C.prefab using Guid(1c8e7604877e1a74686d855582114044) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f4d516ce199a3de417aabc9c5466e54') in 0.0957251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_01_B.prefab
+  artifactKey: Guid(194433cb7c10c944f8826fa04f42a9a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_01_B.prefab using Guid(194433cb7c10c944f8826fa04f42a9a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd15d50fb64c43f6c5a94f33d37625dbf') in 0.0957187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_04_C.prefab
+  artifactKey: Guid(14c09d9149ad2fe4d8362dc0d7ffe5f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_04_C.prefab using Guid(14c09d9149ad2fe4d8362dc0d7ffe5f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '186b09f242a838a9f4cf6fa616ec410e') in 0.0735418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicSide_02_A.prefab
+  artifactKey: Guid(72bbd19fca6ed534495fbd9fe0c0ec08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicSide_02_A.prefab using Guid(72bbd19fca6ed534495fbd9fe0c0ec08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '447d99a811d751c252b9ea47449237c4') in 0.0621199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCornerSide_03_B.prefab
+  artifactKey: Guid(8f5637828e49f254583f3a5019ff0821) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Tiles/Tiles_TCornerSide_03_B.prefab using Guid(8f5637828e49f254583f3a5019ff0821) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '179e582b60ebec34545b2329d0c82ce0') in 0.1744551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_FloorDebris_1.prefab
+  artifactKey: Guid(bfd118a34b89784469de1d72c21fcfa1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asset/BackroomsLikeAsset/prefab/Debris/Debri_FloorDebris_1.prefab using Guid(bfd118a34b89784469de1d72c21fcfa1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2978641c619c5ae842c836b91d693ca3') in 0.0980103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.567 seconds
+Refreshing native plugins compatible for Editor in 5.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.633 seconds
+Domain Reload Profiling: 11052ms
+	BeginReloadAssembly (1392ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (73ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (300ms)
+	RebuildCommonClasses (164ms)
+	RebuildNativeTypeToScriptingClass (62ms)
+	initialDomainReloadingComplete (266ms)
+	LoadAllAssembliesAndSetupDomain (5533ms)
+		LoadAssemblies (2893ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3158ms)
+			TypeCache.Refresh (61ms)
+				TypeCache.ScanAssembly (6ms)
+			BuildScriptInfoCaches (2788ms)
+			ResolveRequiredComponents (264ms)
+	FinalizeReload (3635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2947ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (523ms)
+			ProcessInitializeOnLoadAttributes (1975ms)
+			ProcessInitializeOnLoadMethodAttributes (341ms)
+			AfterProcessingInitializeOnLoad (87ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (88ms)
+Refreshing native plugins compatible for Editor in 7.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5903 unused Assets / (6.4 MB). Loaded Objects now: 6575.
+Memory consumption went from 139.5 MB to 133.1 MB.
+Total: 21.598000 ms (FindLiveObjects: 1.022600 ms CreateObjectMapping: 1.405400 ms MarkObjects: 11.284700 ms  DeleteObjects: 7.882700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.853 seconds
+Refreshing native plugins compatible for Editor in 11.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.191 seconds
+Domain Reload Profiling: 9991ms
+	BeginReloadAssembly (1515ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (110ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (467ms)
+	RebuildCommonClasses (149ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (174ms)
+	LoadAllAssembliesAndSetupDomain (2911ms)
+		LoadAssemblies (2064ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1447ms)
+			TypeCache.Refresh (36ms)
+				TypeCache.ScanAssembly (5ms)
+			BuildScriptInfoCaches (1322ms)
+			ResolveRequiredComponents (60ms)
+	FinalizeReload (5194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3931ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (1170ms)
+			ProcessInitializeOnLoadAttributes (2388ms)
+			ProcessInitializeOnLoadMethodAttributes (287ms)
+			AfterProcessingInitializeOnLoad (56ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (175ms)
+Refreshing native plugins compatible for Editor in 8.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5972 unused Assets / (5.6 MB). Loaded Objects now: 6648.
+Memory consumption went from 139.9 MB to 134.3 MB.
+Total: 29.829800 ms (FindLiveObjects: 1.133700 ms CreateObjectMapping: 1.300900 ms MarkObjects: 15.550200 ms  DeleteObjects: 11.840700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.337 seconds
+Refreshing native plugins compatible for Editor in 24.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.065 seconds
+Domain Reload Profiling: 13337ms
+	BeginReloadAssembly (1055ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (47ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (195ms)
+	RebuildCommonClasses (227ms)
+	RebuildNativeTypeToScriptingClass (92ms)
+	initialDomainReloadingComplete (366ms)
+	LoadAllAssembliesAndSetupDomain (2527ms)
+		LoadAssemblies (2144ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (954ms)
+			TypeCache.Refresh (37ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (864ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (9069ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (40ms)
+			BeforeProcessingInitializeOnLoad (1907ms)
+			ProcessInitializeOnLoadAttributes (3646ms)
+			ProcessInitializeOnLoadMethodAttributes (487ms)
+			AfterProcessingInitializeOnLoad (101ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (256ms)
+Refreshing native plugins compatible for Editor in 16.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5972 unused Assets / (6.3 MB). Loaded Objects now: 6650.
+Memory consumption went from 139.9 MB to 133.6 MB.
+Total: 57.065900 ms (FindLiveObjects: 2.035800 ms CreateObjectMapping: 2.764000 ms MarkObjects: 29.561800 ms  DeleteObjects: 22.698500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
